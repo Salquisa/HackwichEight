@@ -15,7 +15,7 @@ class ViewController: UIViewController {
     //Set initial location to UHWO
     let initialLocation = CLLocation(latitude: 21.361888 , longitude: -158.055725)
     //Set region around UHWO to 1000m
-    let regionRadius: CLLocationDistance = 1000
+    let regionRadius: CLLocationDistance = 5000
 
     
     override func viewDidLoad() {
