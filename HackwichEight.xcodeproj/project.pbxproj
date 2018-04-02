@@ -12,6 +12,7 @@
 		7F40E73D2072BEE20099C6DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F40E73B2072BEE20099C6DD /* Main.storyboard */; };
 		7F40E73F2072BEE20099C6DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F40E73E2072BEE20099C6DD /* Assets.xcassets */; };
 		7F40E7422072BEE20099C6DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F40E7402072BEE20099C6DD /* LaunchScreen.storyboard */; };
+		7F40E74C2072C5DB0099C6DD /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F40E74B2072C5DB0099C6DD /* Restaurant.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		7F40E73E2072BEE20099C6DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7F40E7412072BEE20099C6DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7F40E7432072BEE20099C6DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F40E74B2072C5DB0099C6DD /* Restaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +40,7 @@
 		7F40E72B2072BEE20099C6DD = {
 			isa = PBXGroup;
 			children = (
+				7F40E74B2072C5DB0099C6DD /* Restaurant.swift */,
 				7F40E7362072BEE20099C6DD /* HackwichEight */,
 				7F40E7352072BEE20099C6DD /* Products */,
 			);
@@ -138,6 +141,7 @@
 			files = (
 				7F40E73A2072BEE20099C6DD /* ViewController.swift in Sources */,
 				7F40E7382072BEE20099C6DD /* AppDelegate.swift in Sources */,
+				7F40E74C2072C5DB0099C6DD /* Restaurant.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
